@@ -1,12 +1,13 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './style.css'
 
 function Navbar() {
   return (
     <div className='nav-container'>
-      <a href="#" className='nav-title-link'>
+      <Link to='/' className='nav-title-link'>
         <h1 className='nav-title'>Woofer</h1>
-      </a>
+      </Link>
     </div>
   )
 }
