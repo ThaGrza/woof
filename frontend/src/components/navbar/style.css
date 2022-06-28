@@ -1,0 +1,13 @@
+.nav-container{
+    margin: 0 auto;
+    width: auto;
+    background-color: aquamarine;
+    padding: .7rem;
+}
+.nav-title-link{
+    text-decoration: none;
+    color: white;
+    margin-top: 2rem;
+    font-size: 4rem;
+    font-weight: bold;
+}
