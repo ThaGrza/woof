@@ -1,0 +1,12 @@
+/Users/andrew/Documents/codeStuff/woofer/server/target/debug/deps/cookie-30e4cf6c0e18424e.rmeta: /Users/andrew/.cargo/registry/src/github.com-1ecc6299db9ec823/cookie-0.11.4/src/lib.rs /Users/andrew/.cargo/registry/src/github.com-1ecc6299db9ec823/cookie-0.11.4/src/builder.rs /Users/andrew/.cargo/registry/src/github.com-1ecc6299db9ec823/cookie-0.11.4/src/parse.rs /Users/andrew/.cargo/registry/src/github.com-1ecc6299db9ec823/cookie-0.11.4/src/jar.rs /Users/andrew/.cargo/registry/src/github.com-1ecc6299db9ec823/cookie-0.11.4/src/delta.rs /Users/andrew/.cargo/registry/src/github.com-1ecc6299db9ec823/cookie-0.11.4/src/draft.rs
+
+/Users/andrew/Documents/codeStuff/woofer/server/target/debug/deps/libcookie-30e4cf6c0e18424e.rlib: /Users/andrew/.cargo/registry/src/github.com-1ecc6299db9ec823/cookie-0.11.4/src/lib.rs /Users/andrew/.cargo/registry/src/github.com-1ecc6299db9ec823/cookie-0.11.4/src/builder.rs /Users/andrew/.cargo/registry/src/github.com-1ecc6299db9ec823/cookie-0.11.4/src/parse.rs /Users/andrew/.cargo/registry/src/github.com-1ecc6299db9ec823/cookie-0.11.4/src/jar.rs /Users/andrew/.cargo/registry/src/github.com-1ecc6299db9ec823/cookie-0.11.4/src/delta.rs /Users/andrew/.cargo/registry/src/github.com-1ecc6299db9ec823/cookie-0.11.4/src/draft.rs
+
+/Users/andrew/Documents/codeStuff/woofer/server/target/debug/deps/cookie-30e4cf6c0e18424e.d: /Users/andrew/.cargo/registry/src/github.com-1ecc6299db9ec823/cookie-0.11.4/src/lib.rs /Users/andrew/.cargo/registry/src/github.com-1ecc6299db9ec823/cookie-0.11.4/src/builder.rs /Users/andrew/.cargo/registry/src/github.com-1ecc6299db9ec823/cookie-0.11.4/src/parse.rs /Users/andrew/.cargo/registry/src/github.com-1ecc6299db9ec823/cookie-0.11.4/src/jar.rs /Users/andrew/.cargo/registry/src/github.com-1ecc6299db9ec823/cookie-0.11.4/src/delta.rs /Users/andrew/.cargo/registry/src/github.com-1ecc6299db9ec823/cookie-0.11.4/src/draft.rs
+
+/Users/andrew/.cargo/registry/src/github.com-1ecc6299db9ec823/cookie-0.11.4/src/lib.rs:
+/Users/andrew/.cargo/registry/src/github.com-1ecc6299db9ec823/cookie-0.11.4/src/builder.rs:
+/Users/andrew/.cargo/registry/src/github.com-1ecc6299db9ec823/cookie-0.11.4/src/parse.rs:
+/Users/andrew/.cargo/registry/src/github.com-1ecc6299db9ec823/cookie-0.11.4/src/jar.rs:
+/Users/andrew/.cargo/registry/src/github.com-1ecc6299db9ec823/cookie-0.11.4/src/delta.rs:
+/Users/andrew/.cargo/registry/src/github.com-1ecc6299db9ec823/cookie-0.11.4/src/draft.rs:

@@ -1,32 +1,28 @@
-use std::io::prelude::*;
-use std::net::TcpListener;
-use std::net::TcpStream;
-use std::fs;
+#![feature(proc_macro_hygiene, decl_macro)]
 
-fn main(){
-    let listener = TcpListener::bind("127.0.0.1:7878").unwrap();
+#[macro_use] extern crate rocket;
+use std::path::{ Path, PathBuf};
+use rocket::fs::NamedFile;
+use std::io;
 
-    for stream in listener.incoming(){
-        let stream = stream.unwrap();
-        handle_connection(stream);
-    }
+#[get("/")]
+fn index() -> io::Result<NamedFile> {
+    NamedFile::open("build/index.html")
 }
 
-fn handle_connection(mut stream: TcpStream){
-    let mut buffer = [0; 1024];
-    stream.read(&mut buffer).unwrap();
+#[get("/<file..>")]
+fn build_dir(file: PathBuf) -> Option<NamedFile> {
+    NamedFile::open(Path::new("build/").join(file)).ok()
+}
 
-    let get = b"GET / HELP/1.1\r\n";
-    let status_line = "HTTP:/1.1 200 OK";
-    let content = fs::read_to_string("../../frontend/public/index.html").unwrap();
+#[get("/static/<file..>", rank = 2)]
+fn static_dir(file: PathBuf) -> Option<NamedFile> {
+    NamedFile::open(Path::new("build/static/").join(file)).ok()
+}
 
-    let response = format!(
-        "{}\r\nContent-length: {}\r\n\r\n{}",
-        status_line,
-        content.len(),
-        content
-    );
-
-    stream.write(response.as_bytes()).unwrap();
-    stream.flush().unwrap();
+#[launch]
+fn rocket() -> rocket::Rocket {
+    rocket::ignite()
+    .mount("/", routes![index, build_dir])
+    .mount("/static", routes![static_dir])
 }
