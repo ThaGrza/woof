@@ -1,0 +1,21 @@
+import react from 'react';
+import Navbar from '../../components/navbar/Navbar';
+import './style.css';
+
+function signin(){
+    return (
+        <div className='container'>
+            <h1 className='signin-header'>Woofer</h1>
+            <p className='intro-text'>
+                Welcome to Woofer the premier social media 
+                and dog park buddy platform.
+            </p>
+            <input className='username-text' placeholder='Username'></input>
+            <input className='password-text' placeholder='Password'></input>
+            <button className='signin-button'>Login</button>
+            <button className='signup-button'>Sign Up</button>
+            <button className='forgot-password-button'>Forgot Password?</button>
+        </div>
+    )
+}
+export default signin;

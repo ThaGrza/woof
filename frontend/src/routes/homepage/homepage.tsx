@@ -1,11 +1,12 @@
 import React from 'react'
 import Navbar from '../../components/navbar/Navbar'
+import SearchBar from '../../components/searchbar/searchbar';
 
 function homepage() {
   return (
     <div className='container'>
-        <Navbar />
-        <h1> HOMEPAGE</h1>
+      <Navbar />
+      <SearchBar />
     </div>
   )
 }
