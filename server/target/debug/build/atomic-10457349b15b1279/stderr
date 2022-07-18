@@ -4,7 +4,7 @@ error[E0658]: use of unstable library feature 'integer_atomics'
 1 | pub fn probe() { let _ = core::sync::atomic::AtomicU128::compare_exchange; }
   |                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
   |
-  = note: see issue #32976 <https://github.com/rust-lang/rust/issues/32976> for more information
+  = note: see issue #99069 <https://github.com/rust-lang/rust/issues/99069> for more information
   = help: add `#![feature(integer_atomics)]` to the crate attributes to enable
 
 error[E0658]: use of unstable library feature 'integer_atomics'
@@ -13,7 +13,7 @@ error[E0658]: use of unstable library feature 'integer_atomics'
 1 | pub fn probe() { let _ = core::sync::atomic::AtomicU128::compare_exchange; }
   |                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
   |
-  = note: see issue #32976 <https://github.com/rust-lang/rust/issues/32976> for more information
+  = note: see issue #99069 <https://github.com/rust-lang/rust/issues/99069> for more information
   = help: add `#![feature(integer_atomics)]` to the crate attributes to enable
 
 error: aborting due to 2 previous errors
@@ -25,7 +25,7 @@ error[E0658]: use of unstable library feature 'integer_atomics'
 1 | pub fn probe() { let _ = core::sync::atomic::AtomicI128::compare_exchange; }
   |                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
   |
-  = note: see issue #32976 <https://github.com/rust-lang/rust/issues/32976> for more information
+  = note: see issue #99069 <https://github.com/rust-lang/rust/issues/99069> for more information
   = help: add `#![feature(integer_atomics)]` to the crate attributes to enable
 
 error[E0658]: use of unstable library feature 'integer_atomics'
@@ -34,7 +34,7 @@ error[E0658]: use of unstable library feature 'integer_atomics'
 1 | pub fn probe() { let _ = core::sync::atomic::AtomicI128::compare_exchange; }
   |                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
   |
-  = note: see issue #32976 <https://github.com/rust-lang/rust/issues/32976> for more information
+  = note: see issue #99069 <https://github.com/rust-lang/rust/issues/99069> for more information
   = help: add `#![feature(integer_atomics)]` to the crate attributes to enable
 
 error: aborting due to 2 previous errors
@@ -46,7 +46,7 @@ error[E0658]: use of unstable library feature 'integer_atomics'
 1 | pub fn probe() { let _ = std::sync::atomic::AtomicU128::compare_exchange; }
   |                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
   |
-  = note: see issue #32976 <https://github.com/rust-lang/rust/issues/32976> for more information
+  = note: see issue #99069 <https://github.com/rust-lang/rust/issues/99069> for more information
   = help: add `#![feature(integer_atomics)]` to the crate attributes to enable
 
 error[E0658]: use of unstable library feature 'integer_atomics'
@@ -55,7 +55,7 @@ error[E0658]: use of unstable library feature 'integer_atomics'
 1 | pub fn probe() { let _ = std::sync::atomic::AtomicU128::compare_exchange; }
   |                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
   |
-  = note: see issue #32976 <https://github.com/rust-lang/rust/issues/32976> for more information
+  = note: see issue #99069 <https://github.com/rust-lang/rust/issues/99069> for more information
   = help: add `#![feature(integer_atomics)]` to the crate attributes to enable
 
 error: aborting due to 2 previous errors
@@ -67,7 +67,7 @@ error[E0658]: use of unstable library feature 'integer_atomics'
 1 | pub fn probe() { let _ = std::sync::atomic::AtomicI128::compare_exchange; }
   |                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
   |
-  = note: see issue #32976 <https://github.com/rust-lang/rust/issues/32976> for more information
+  = note: see issue #99069 <https://github.com/rust-lang/rust/issues/99069> for more information
   = help: add `#![feature(integer_atomics)]` to the crate attributes to enable
 
 error[E0658]: use of unstable library feature 'integer_atomics'
@@ -76,7 +76,7 @@ error[E0658]: use of unstable library feature 'integer_atomics'
 1 | pub fn probe() { let _ = std::sync::atomic::AtomicI128::compare_exchange; }
   |                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
   |
-  = note: see issue #32976 <https://github.com/rust-lang/rust/issues/32976> for more information
+  = note: see issue #99069 <https://github.com/rust-lang/rust/issues/99069> for more information
   = help: add `#![feature(integer_atomics)]` to the crate attributes to enable
 
 error: aborting due to 2 previous errors

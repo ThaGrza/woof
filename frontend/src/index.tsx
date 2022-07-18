@@ -1,9 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Homepage from './routes/homepage/homepage';
-import Signin from './routes/signin/signin';
-
+import SearchPage from './pages/Search/Search';
+import SignIn from './pages/SignIn/SignIn';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
@@ -14,8 +13,9 @@ const root = ReactDOM.createRoot(
 root.render(
   <BrowserRouter>
   <Routes>
-    <Route path='/' element={<Signin/> } />
-    <Route path='/homepage' element={<Homepage />} />
+    <Route path='/' element={<App/> } />
+    <Route path='/siginin' element={<SignIn /> } />
+    <Route path='/searchpage' element={<SearchPage />} />
   </Routes>
   </BrowserRouter>
 );

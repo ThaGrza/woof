@@ -2,7 +2,7 @@
 
 #[macro_use] extern crate rocket;
 use std::path::{ Path, PathBuf};
-use rocket::fs::NamedFile;
+use rocket::response::NamedFile;
 use std::io;
 
 #[get("/")]
@@ -20,9 +20,14 @@ fn static_dir(file: PathBuf) -> Option<NamedFile> {
     NamedFile::open(Path::new("build/static/").join(file)).ok()
 }
 
-#[launch]
-fn rocket() -> rocket::Rocket {
-    rocket::ignite()
-    .mount("/", routes![index, build_dir])
-    .mount("/static", routes![static_dir])
+fn main() {
+    rocket::ignite().mount("/", routes![index]).launch();
 }
+
+// panics:  error: cant find attribute 'launch' in scope / 'main' not found in crate 'server'
+// #[launch]
+// fn rocket() -> rocket::Rocket {
+//     rocket::ignite()
+//     .mount("/", routes![index, build_dir])
+//     .mount("/static", routes![static_dir])
+// }
