@@ -1,9 +1,9 @@
 import react from 'react';
-import './style.css';
+import './SignIn.css';
 
 function SignIn(){
     return (
-        <div className='container'>
+        <div className='sign-in-container'>
             <h1 className='signin-header'>Woofer</h1>
             <p className='intro-text'>
                 Welcome to Woofer the premier social media 

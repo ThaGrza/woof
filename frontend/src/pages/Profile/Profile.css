@@ -1,0 +1,36 @@
+.profile-container{}
+
+
+.profile-picture{
+    height: 250px;
+    width: auto;
+    border-radius: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+.profile-dog-name{}
+.profile-human-name{}
+.profile-info{}
+.age{}
+.location{}
+.personality{}
+.toys{}
+.bio{}
+
+
+
+
+
+
+.favorite-parks{}
+.fav-parks-ul{}
+.fav-park-li{}
