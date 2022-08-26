@@ -7,8 +7,8 @@ function Navbar() {
   return (
     <div className='nav-container'>
       {/* if signed in, link points to homepage else signin page */}
-      <Link to='/' className='nav-link header'>Woofer</Link>
-      <Link to='/profile' className='nav-link profile'>{loggedIn ? "Profile" : "Sign In"}</Link>
+      <Link to='/' className='nav-link title'>Woofer</Link>
+      <Link to='/profile' className='nav-link loggin'>{loggedIn ? "Profile" : "Sign In"}</Link>
     </div>
   )
 }
